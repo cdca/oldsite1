@@ -1,0 +1,30 @@
+:root{
+    --maxPageWidth: 1440px;
+    --pagePadding: 32px;
+    --primary: #E13632;
+    --lightRed: #FCEBEB;
+    --secondary: #0C0C0C;
+    --white: #ffffff;
+    --whiteText: #ffffff;
+
+    --greyTextOnBlack: #B6B6B6;
+    --greyTextOnWhite: #4D4D4D;
+    --greyTransparent: #ffffffbb;
+    --greyBorder: #313131;
+    //--textLight: #F1F1F1;
+    --textDark: #000000;
+    --whiteOpacity: 255, 255, 255;
+    --blackOpacity: 0, 0, 0;
+    --lGap: 120px;
+    --gap: 32px;
+}
+
+%pageWidth {
+    max-width: var(--maxPageWidth);
+    width: 100%;
+    padding: 0 64px;
+    box-sizing: border-box;
+  }
+  
+
+  

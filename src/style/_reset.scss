@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: normal;
+  margin: 0;
+  font-size: inherit;
+  //line-height: 1.4;
+}
+
+a{
+  text-decoration: none;
+}
+
+span{
+  //display: inline-block;
+  display: inline-block;
+}
+
+
+img{
+  display: block;
+}
